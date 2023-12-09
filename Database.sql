@@ -177,3 +177,6 @@ UPDATE Grades
 SET Project = Project + 5
 WHERE SubjectName = 'Object Oriented Programming';
 
+UPDATE Grades
+SET FinalGrade = 95
+WHERE SubjectName = 'Advance Computer Programming' AND FinalGrade > 85;
