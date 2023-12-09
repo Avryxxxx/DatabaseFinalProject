@@ -31,3 +31,10 @@ CREATE TABLE Grades (
   FOREIGN KEY (StdId) REFERENCES StudentInfo(StdId)
 );
 
+CREATE TABLE Subject (
+  SubjectID INT PRIMARY KEY,
+  SubjectName VARCHAR(30),
+  SubjectHour INT,
+  Description TEXT
+);
+
