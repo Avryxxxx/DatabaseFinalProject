@@ -168,3 +168,8 @@ ORDER BY SubjectHour ASC;
 SELECT SubjectName, SubjectHour
 FROM Subject
 ORDER BY SubjectHour ASC;
+
+UPDATE Grades
+SET FinalGrade = 92
+WHERE StdId = 5 AND SubjectName = 'Physical Education';
+
