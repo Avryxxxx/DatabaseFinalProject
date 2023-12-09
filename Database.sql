@@ -156,3 +156,7 @@ FROM Subject
 JOIN Grades ON Subject.SubjectName = Grades.SubjectName
 JOIN StudentInfo ON Grades.StdId = StudentInfo.StdId;
 
+SELECT StdId, StdFirstName, StdLastName, FinalGrade
+FROM Grades
+JOIN StudentInfo ON Grades.StdId = StudentInfo.StdId
+ORDER BY FinalGrade DESC;
