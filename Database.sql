@@ -17,3 +17,17 @@ CREATE TABLE StudentInfo (
   Photo LONGBLOB
 );
 
+CREATE TABLE Grades (
+  StdId INT,
+  SubjectName VARCHAR(30),
+  Quiz INT,
+  Assessment INT,
+  Activity INT,
+  Project INT,
+  MidtermExam INT,
+  FinalExam INT,
+  FinalGrade DOUBLE,
+  PRIMARY KEY (StdId, SubjectName),
+  FOREIGN KEY (StdId) REFERENCES StudentInfo(StdId)
+);
+
