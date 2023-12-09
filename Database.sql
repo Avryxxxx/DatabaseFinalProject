@@ -173,3 +173,7 @@ UPDATE Grades
 SET FinalGrade = 92
 WHERE StdId = 5 AND SubjectName = 'Physical Education';
 
+UPDATE Grades
+SET Project = Project + 5
+WHERE SubjectName = 'Object Oriented Programming';
+
