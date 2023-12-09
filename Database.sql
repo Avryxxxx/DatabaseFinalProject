@@ -41,7 +41,7 @@ CREATE TABLE Subject (
 INSERT INTO Users (UserId, Username, Password)
 VALUE (1, 'sbuniv', 'sponge');
 
-INSERT INTO Users (StdId, StdFirstName, StdLastName, Birthdate, Gender, Phone, Address, Photo)
+INSERT INTO StudentInfo (StdId, StdFirstName, StdLastName, Birthdate, Gender, Phone, Address, Photo)
 VALUES
 (1, 'SpongeBob', 'Squarepants', '2005-11-07', 'Male', '0937264827', '123 Conch St. Bikini Bottom', '[BLOB - 66.5 KiB]'),
 (2, 'Pearl', 'Krabs', '2004-11-14', 'Female', '09731927645', '3541 Anchor St. Bikini Bottom', '[BLOB - 48.6 KiB]'),
