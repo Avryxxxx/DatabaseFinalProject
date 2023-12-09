@@ -135,3 +135,9 @@ WHERE SubjectName = 'Computer Networking 1';
 SELECT StudentInfo.StdId, StdFirstName, StdLastName, SubjectName
 FROM StudentInfo
 JOIN Grades ON StudentInfo.StdId = Grades.StdId;
+
+SELECT Subject.SubjectName, StudentInfo.StdId, StdFirstName, StdLastName
+FROM Subject
+JOIN Grades ON Subject.SubjectName = Grades.SubjectName
+JOIN StudentInfo ON Grades.StdId = StudentInfo.StdId;
+
