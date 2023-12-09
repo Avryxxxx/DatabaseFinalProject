@@ -160,3 +160,7 @@ SELECT StdId, StdFirstName, StdLastName, FinalGrade
 FROM Grades
 JOIN StudentInfo ON Grades.StdId = StudentInfo.StdId
 ORDER BY FinalGrade DESC;
+
+SELECT SubjectName, SubjectHour
+FROM Subject
+ORDER BY SubjectHour ASC;
