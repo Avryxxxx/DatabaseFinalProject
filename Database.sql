@@ -127,3 +127,7 @@ VALUES
 (10, 'Discrete Mathematics', 90, 91, 93, 88, 94, 86, 91.5);
 
 
+SELECT StudentInfo.StdId, StdFirstName, StdLastName, SubjectName, FinalGrade
+FROM StudentInfo
+JOIN Grades ON StudentInfo.StdId = Grades.StdId
+WHERE SubjectName = 'Computer Networking 1';
