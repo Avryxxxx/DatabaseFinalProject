@@ -38,3 +38,5 @@ CREATE TABLE Subject (
   Description TEXT
 );
 
+INSERT INTO Users (UserId, Username, Password)
+VALUE (1, 'sbuniv', 'sponge');
