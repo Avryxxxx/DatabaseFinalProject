@@ -54,7 +54,7 @@ VALUES
 (9, 'Ray', 'Ray', '1976-12-05', 'Male', '09956734628', 'Star House Basement', '[BLOB - 6.5 KiB]'),
 (10, 'Karen', 'Plankton', '1983-11-14', 'Female', '09293729372', 'Chum Bucket, Bikini Bottom', '[BLOB - 36.6 KiB]');
 
-INSERT INTO YourTableName (SubjectID, SubjectName, SubjectHour, Description)
+INSERT INTO Subject (SubjectID, SubjectName, SubjectHour, Description)
 VALUES
 (1, 'Computer Networking 1', 8, 'Foundational computer network concepts'),
 (2, 'Advance Computer Programming', 9, 'Comprehensive Advanced Computer Programming'),
@@ -62,3 +62,4 @@ VALUES
 (4, 'Physical Education', 5, 'Sports and Fitness Physical Education Program'),
 (5, 'Object Oriented Programming', 8, 'Practical Object-Oriented Programming Skills'),
 (6, 'Discrete Mathematics', 5, 'Rigorous Discrete Mathematics Study');
+
