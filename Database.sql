@@ -63,7 +63,7 @@ VALUES
 (5, 'Object Oriented Programming', 8, 'Practical Object-Oriented Programming Skills'),
 (6, 'Discrete Mathematics', 5, 'Rigorous Discrete Mathematics Study');
 
-INSERT INTO `grade`(`StdId`, `SubjectName`, `Quiz`, `Assessment`, `Activity`, `Project`, `MidtermExam`, `FinalExam`, `FinalGrade`) 
+INSERT INTO Grades (`StdId`, `SubjectName`, `Quiz`, `Assessment`, `Activity`, `Project`, `MidtermExam`, `FinalExam`, `FinalGrade`) 
 VALUES 
 (1, 'Computer Networking 1', 85, 90, 78, 95, 88, 92, 89.5),
 (1, 'Advance Computer Programming', 92, 88, 96, 85, 90, 91, 92.3),
