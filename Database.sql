@@ -145,3 +145,8 @@ SELECT StudentInfo.StdId, StdFirstName, StdLastName, SubjectName, FinalGrade, Su
 FROM StudentInfo
 JOIN Grades ON StudentInfo.StdId = Grades.StdId
 JOIN Subject ON Grades.SubjectName = Subject.SubjectName;
+
+SELECT StudentInfo.StdId, StdFirstName, StdLastName, SubjectName, FinalGrade, SubjectHour, Description
+FROM StudentInfo
+JOIN Grades ON StudentInfo.StdId = Grades.StdId
+JOIN Subject ON Grades.SubjectName = Subject.SubjectName;
