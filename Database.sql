@@ -164,3 +164,7 @@ ORDER BY FinalGrade DESC;
 SELECT SubjectName, SubjectHour
 FROM Subject
 ORDER BY SubjectHour ASC;
+
+SELECT SubjectName, SubjectHour
+FROM Subject
+ORDER BY SubjectHour ASC;
