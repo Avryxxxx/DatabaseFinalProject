@@ -39,7 +39,7 @@ CREATE TABLE Subject (
 );
 
 INSERT INTO Users (UserId, Username, Password)
-VALUE (1, 'sbuniv', 'sponge');
+VALUES (1, 'sbuniv', 'sponge');
 
 INSERT INTO StudentInfo (StdId, StdFirstName, StdLastName, Birthdate, Gender, Phone, Address, Photo)
 VALUES
